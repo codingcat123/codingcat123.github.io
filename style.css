@@ -1,0 +1,69 @@
+body {
+	/*background-color: rgb(230,122,36);*/
+	background-image: url(../images/beans.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	font-family: Helvetica, arial, sans-serif;
+}
+.main{
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 20px 5px rgba (150,150,150,1.0);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: 'Rakkas', cursive;	
+}
+
+h2{
+	text-align: center;
+	margin-top: 0;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+h3 {
+	magin-top:0;
+	cursor:pointer;
+}
+h3:hover{
+	text-decoration: underline;
+}
+
+.js h3 + * {
+	display: none;
+}
+
+img {
+	border:10px solid orange;
+	border-radius: 50%;
+	/*centres the image*/
+	display:block;
+	margin:0 auto;
+	width: 500px;
+}
+
+p, 
+ul,
+ol {
+	line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+}
+
+a{
+	color:orange;
+	font-weight: bold;
+	text-decoration:none;
+}
+a:hover {
+	color:red;
+	text-decoration: underline;
+}
